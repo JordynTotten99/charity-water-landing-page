@@ -9,6 +9,6 @@ This project is a responsive nonprofit landing page built using HTML and CSS. Th
 ## Technologies Used 
 -HTML5
 -CSS3
-GitHub Codespaces
-GitHub Pages
+-GitHub Codespaces
+-GitHub Pages
 ## Live Site
