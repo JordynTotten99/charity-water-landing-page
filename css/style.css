@@ -1,0 +1,79 @@
+/* 1. Background and Layout */
+body {
+    background-color: #cbccd1;
+    margin: 0;
+    padding: 10px 60px 60px 60px;
+    justify-content: center;
+}
+.container {
+    max-width: 1100px;
+    width: 100%;
+}
+
+/* 2. Logo Size */
+.logo {
+    height: 280px;
+    margin-bottom: 20px;
+}
+
+/* 3. Heading: Black #1a1a1a and Proxima style */
+h1 {
+    font-family: sans-serif; /*Proxima Nova lookalike */
+    color: #1A1A1A;
+    font-size: 60px;
+    font-weight: 800;
+    margin-bottom: 40px;
+    line-height: 1.1;
+    text-align: center;
+}
+
+/* 4. The Grid (Image and Text side-by-side) */
+.hero-grid {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 40px;
+    align-items: flex-start;
+}
+
+.hero-image img {
+    width: 650px;
+    border-radius: 15px;
+}
+
+.hero-cta {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* 5. The Button: Yellow #FCC907 and Navy #003366 */
+.yellow-btn {
+    background-color: #FCC907;
+    color: #003366;
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 34px;
+    padding: 22px 50px;
+    text-decoration: none;
+    border-radius: 25px;
+    box-shadow: 0 6px 0 #1a1a1a;
+    transition: all 0.15s;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.yellow-btn:hover {
+    transform: translateY(2px);
+    box-shadow: 0 4px 0 #1a1a1a;
+}
+
+/* 6. Subtext: Georgia and Light Blue #77A8DB */
+.cta-subtext, .bottom-description p {
+    font-family: Georgia, Serif;
+    color: #77A8DB;
+    font-size: 24px;
+    line-height: 1.6;
+    font-weight: bold;
+    margin-top: 25px;
+    text-align: center;
+}
